@@ -7,12 +7,18 @@ html{
     box-sizing:inherit;}    
 
 body{
-    font-size:16px
+    font: size 16px;
+    margin: 0;
+
 }
 
 a{
     text-decoration: none;
     color:#000;
+}
+.contenedor{
+    max-width:1200px;
+    margin: 0 auto;
 }
 /*Header y navegacion*/
 
@@ -27,9 +33,17 @@ a{
 .nombre-sitio span {
     color: #037bc0;
 }
+.contenedor-nav{
 
-.nav-principal{
     border-top: 1px solid #e1e1e1;
+}
+.nav-principal{
     padding:20px 0;
+}
 
+.hero{
+    height: 550px;
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
