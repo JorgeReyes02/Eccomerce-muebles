@@ -10,11 +10,12 @@ body{
 }
 
 .nombre-sitio{
+    margin : 50px 0;
+}
+
+.nombre-sitio{
     color:#000;
 }
 .nombre-sitio span {
     color: #037bc0;
-}
-.sobre-nosotros{
-
 }
