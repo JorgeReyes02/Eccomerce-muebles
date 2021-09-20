@@ -1,6 +1,20 @@
-h1{
+html{
+    box-sizing:border-box;
+    font-size:62.5%};
+
+*, *:before, *:after{
+    box-sizing:inherit;}    
+
+body{
+    font-size:16px
+}
+
+.nombre-sitio{
     color:#000;
 }
-h1 span {
+.nombre-sitio span {
     color: #037bc0;
+}
+.sobre-nosotros{
+
 }
