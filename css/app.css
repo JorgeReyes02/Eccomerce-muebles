@@ -1,3 +1,4 @@
+/* Globales */
 html{
     box-sizing:border-box;
     font-size:62.5%};
@@ -9,8 +10,15 @@ body{
     font-size:16px
 }
 
+a{
+    text-decoration: none;
+    color:#000;
+}
+/*Header y navegacion*/
+
 .nombre-sitio{
     margin : 50px 0;
+    text-align: center;
 }
 
 .nombre-sitio{
@@ -18,4 +26,10 @@ body{
 }
 .nombre-sitio span {
     color: #037bc0;
+}
+
+.nav-principal{
+    border-top: 1px solid #e1e1e1;
+    padding:20px 0;
+
 }
