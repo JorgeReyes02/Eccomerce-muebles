@@ -16,9 +16,17 @@ a{
     text-decoration: none;
     color:#000;
 }
+img{
+    max-width: 100%;
+}
 .contenedor{
     max-width:1200px;
     margin: 0 auto;
+}
+@media(min-width:504px){
+    .contenedor{
+        max-width: 800px;
+    }
 }
 /*Header y navegacion*/
 
@@ -43,9 +51,24 @@ a{
     justify-content: space-between;
 }
 
+
 .hero{
     height: 550px;
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*Categorias */
+.listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px
+}
+.categoria a{
+    text-align: center;
+    display: block;
+}
+.categorias h2 {
+    text-align: center;
 }
