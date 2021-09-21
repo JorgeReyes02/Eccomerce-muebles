@@ -189,3 +189,14 @@ img{
 .producto:nth-child(6){
     grid-column: 5/7;
 }
+
+.site-footer{
+    border-top:1px solid #e1e1e1;
+    margin-top:5rem;
+    padding-top:5rem;
+}
+.grid-footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
