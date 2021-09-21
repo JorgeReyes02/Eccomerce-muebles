@@ -37,11 +37,7 @@ img{
     max-width:120rem;
     margin: 0 auto;
 }
-@media(min-width:504px){
-    .contenedor{
-        max-width: 80rem;
-    }
-}
+
 /*Header y navegacion*/
 
 .nombre-sitio{
@@ -92,7 +88,7 @@ img{
     border-bottom-right-radius:1rem;
 }
 .categorias{
-    margin-top:5rem;
+    margin-top:10rem;
 }
 .categorias h2 {
     text-align: center;
@@ -104,6 +100,6 @@ img{
     background-image: linear-gradient(to right, transparent 50%, #037bc0 50%,#037bc0 100%),url(../img/nosotros.jpg);
     padding:5rem 0;
     background-repeat: no-repeat;
-    background-size: 100%,60rem;
+    background-size: 100%,120rem;
     background-position: left center;
 }
