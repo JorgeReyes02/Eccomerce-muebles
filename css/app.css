@@ -21,18 +21,18 @@ img{
     display: block;
 }
 .contenedor{
-    max-width:1200px;
+    max-width:120rem;
     margin: 0 auto;
 }
 @media(min-width:504px){
     .contenedor{
-        max-width: 800px;
+        max-width: 80rem;
     }
 }
 /*Header y navegacion*/
 
 .nombre-sitio{
-    margin : 50px 0;
+    margin : 5rem 0;
     text-align: center;
 }
 
@@ -44,17 +44,17 @@ img{
 }
 .contenedor-nav{
 
-    border-top: 1px solid #e1e1e1;
+    border-top: .1rem solid #e1e1e1;
 }
 .nav-principal{
-    padding:20px 0;
+    padding:2rem 0;
     display:flex;
     justify-content: space-between;
 }
 
 
 .hero{
-    height: 550px;
+    height: 55rem;
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,18 +64,18 @@ img{
 .listado-categorias{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:20px
+    gap:2rem
 }
 .categoria a{
     text-align: center;
     display: block;
-    padding:20px;
-    font-size: 20px;
+    padding:2rem;
+    font-size: 2rem
 }
 .categoria a:hover{
     background-color: #037bc0;
     color:#fff;
-    border-bottom-right-radius:10px;
+    border-bottom-right-radius:1rem;
 }
 .categorias h2 {
     text-align: center;
