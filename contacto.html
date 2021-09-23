@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/app.css">
     <title>Contacto</title>
 </head>
@@ -31,57 +35,61 @@
 
                 <div class="campo">
                     <label for="nombre">Nombre: </label>
-                    <input type="text" placeholder="Coloca tu Nombre" id="nombre">
+                    <input class="input" type="text" placeholder="Coloca tu Nombre" id="nombre">
                 </div>
                 
                 <div class="campo">
                     <label for="asunto">Asunto: </label>
-                    <input type="text" placeholder="Tu Asunto" id="asunto">
+                    <input class="input" type="text" placeholder="Tu Asunto" id="asunto">
                 </div>
 
                 <div class="campo">
                     <label for="email">Email: </label>
-                    <input type="email" placeholder="Tu Email" id="email">
+                    <input class="input" type="email" placeholder="Tu Email" id="email">
                 </div>
                 
                 <div class="campo">
                     <label for="tel">Teléfono: </label>
-                    <input type="tel" placeholder="Tu Teléfono" id="tel">
+                    <input class="input" type="tel" placeholder="Tu Teléfono" id="tel">
                 </div>
 
                 <div class="campo">
                     <label for="mensaje">Mensaje: </label>
-                    <textarea id="mensaje"></textarea>
+                    <textarea class="input" id="mensaje"></textarea>
                 </div>
 
             </fieldset>
             
             <fieldset>
                 <legend>País</legend>
+                <div class="campo">
                     <label for="pais">País: </label>
-                    <select  id="pais">
+                    <select  id="pais" class="input">
                         <option value="">-- Seleccione --</option>
                         <option value="Colombia">Colombia</option>
                         <option value="Ecuador">Ecuador</option>
                         <option value="Argentina">Argentina</option>
                         <option value="Mexico">México</option>
                     </select>
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>Información Extra</legend>
+                    
                     <div class="campo">
                         <label for="cliente">Cliente</label>
-                        <input type="radio" id="cliente" name="tipo">
+                        <input  type="radio" id="cliente" name="tipo">
+                    </div>
 
+                    <div class="campo">
                         <label for="proveedor">Proveedor</label>
                         <input type="radio" id="proveedor" name="tipo">
+                    </div>
 
-                        <label for="cliente">Cliente</label>
-                        <input type="radio" id="cliente">
-
+                    <div class="campo">
                         <label for="categorias">Categoría de Interés</label>
-                        <input list="categorias" name="categorias">
+                        <input class="input" list="categorias" name="categorias">
                         <datalist id="categorias">
                             <option value="Cocina"></option>
                             <option value="Exterior">
@@ -89,11 +97,10 @@
                             <option value="Oficina">
                             <option value="Television">
                         </datalist>
-
-                            
+ 
                     </div>
             </fieldset>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="btn">
 
         </form>    
 
