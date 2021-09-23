@@ -24,7 +24,81 @@
 
     <main class="contenido-principal contenedor">
         <h2 class="text-center">Contacto</h2>
-    </main>
+        
+        <form class="formulario">
+            <fieldset>
+                <legend>Tus Datos</legend>
+
+                <div class="campo">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" placeholder="Coloca tu Nombre" id="nombre">
+                </div>
+                
+                <div class="campo">
+                    <label for="asunto">Asunto: </label>
+                    <input type="text" placeholder="Tu Asunto" id="asunto">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email: </label>
+                    <input type="email" placeholder="Tu Email" id="email">
+                </div>
+                
+                <div class="campo">
+                    <label for="tel">Teléfono: </label>
+                    <input type="tel" placeholder="Tu Teléfono" id="tel">
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="mensaje"></textarea>
+                </div>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>País</legend>
+                    <label for="pais">País: </label>
+                    <select  id="pais">
+                        <option value="">-- Seleccione --</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Mexico">México</option>
+                    </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información Extra</legend>
+                    <div class="campo">
+                        <label for="cliente">Cliente</label>
+                        <input type="radio" id="cliente" name="tipo">
+
+                        <label for="proveedor">Proveedor</label>
+                        <input type="radio" id="proveedor" name="tipo">
+
+                        <label for="cliente">Cliente</label>
+                        <input type="radio" id="cliente">
+
+                        <label for="categorias">Categoría de Interés</label>
+                        <input list="categorias" name="categorias">
+                        <datalist id="categorias">
+                            <option value="Cocina"></option>
+                            <option value="Exterior">
+                            <option value="Recamaras">
+                            <option value="Oficina">
+                            <option value="Television">
+                        </datalist>
+
+                            
+                    </div>
+            </fieldset>
+            <input type="submit" value="Enviar">
+
+        </form>    
+
+     </main>
+
 
 
     <footer class="site-footer">
@@ -65,3 +139,6 @@
 
 </body>
 </html>
+
+
+     
