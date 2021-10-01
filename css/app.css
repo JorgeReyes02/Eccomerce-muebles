@@ -75,6 +75,11 @@ img{
     background-color:#769c02;
     cursor: pointer;
 }
+@media(min-width: 768px) {
+    .btn{
+        width: auto;
+    }
+}
 .contenedor{
     max-width:120rem;
     margin: 0 auto;
@@ -178,7 +183,7 @@ img{
 @media(min-width: 768px) {
     .sobre-nosotros{
         background-image: linear-gradient(to right, transparent 50%, #037bc0 50%,#037bc0 100%),url(../img/nosotros.jpg);
-        padding:10rem 0;
+        
         background-size: 100%,160rem;
         background-position:center;
         margin-top:2rem;
@@ -389,10 +394,14 @@ text-align: center;
     padding:0;
     margin:0;
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap:2rem;
 }
-
+@media(min-width: 768px) {
+    .galeria{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
 .galeria img{
     width:40rem;
     height:40rem;
