@@ -129,10 +129,13 @@ img{
 }
 
 /*Categorias */
-.listado-categorias{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:2rem
+
+@media(min-width: 768px) {
+    .listado-categorias{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:2rem
+    }
 }
 .categoria a{
     text-align: center;
@@ -146,7 +149,18 @@ img{
     border-bottom-right-radius:1rem;
 }
 .categorias{
-    margin-top:10rem;
+   padding: 5rem 0;
+}
+.categoria img{
+    width: 100%;
+}
+.categoria{
+    margin-bottom: 2rem;
+}
+@media(min-width: 768px) {
+    .categoria{
+        margin-bottom: 0;
+    }
 }
 
 /* Nosotros*/
