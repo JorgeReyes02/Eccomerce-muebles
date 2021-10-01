@@ -176,9 +176,8 @@ img{
     .sobre-nosotros{
         background-image: linear-gradient(to right, transparent 50%, #037bc0 50%,#037bc0 100%),url(../img/nosotros.jpg);
         padding:10rem 0;
-    
         background-size: 100%,160rem;
-        background-position: left center;
+        background-position:center;
         margin-top:2rem;
     }
 }
@@ -329,8 +328,13 @@ text-align: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5rem;
 }
-
+@media(min-width: 768px) {
+    .informacion-nosotros{
+        padding: 0;
+    }
+}
 .contenedor-blog{
 display: grid;
 grid-template-columns: 2fr 1fr;
