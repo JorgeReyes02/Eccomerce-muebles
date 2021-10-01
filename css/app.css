@@ -95,10 +95,15 @@ img{
 /*Header y navegacion*/
 
 .nombre-sitio{
-    margin : 5rem 0;
+    margin : 2rem 0;
     text-align: center;
 }
-
+@media(min-width: 768px) {
+    .nombre-sitio{
+        margin : 5rem 0;
+       
+    }
+}
 .nombre-sitio{
     color:#000;
 }
